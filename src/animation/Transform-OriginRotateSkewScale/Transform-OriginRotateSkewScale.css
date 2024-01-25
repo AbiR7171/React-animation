@@ -1,0 +1,71 @@
+.componentContainer{
+     display: flex;
+     justify-content: space-between;
+     padding: 50px;
+}
+
+.boxContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 100px;
+     gap: 10px;
+}
+
+.boxContainerTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 10px;
+}
+.fourthBoxContainer{
+     overflow: hidden;
+}
+
+.boxOne{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-duration: 500ms;
+    
+}
+
+.boxTwo{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform-origin: top;
+    transition-duration: 2s;
+}
+
+.boxThree{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+
+    transition-duration: 500ms;
+}
+
+.boxFour{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition-duration: 500ms;
+    transform-origin: top;
+}
+
+
+.boxOne:hover{
+    transform: rotate(30deg);
+}
+
+.boxTwo:hover{
+    transform: rotate(180deg);
+}
+
+.boxFour:hover{
+    transform: rotate(180deg);
+}
